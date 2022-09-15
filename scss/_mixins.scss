@@ -1,0 +1,69 @@
+
+
+
+/*Tajam_master_verstkaPractic mixins*/
+
+// @mixin button {
+//     .link-button{
+//         font-weight: $text-medium;
+//         font-size: 16px;
+//         border: 1px solid $cyan-text-color;
+//         border-radius: 2px;
+//         color: $cyan-text-color;
+//         text-decoration: none;
+//         line-height: 40px;
+//         padding: 0 20px;
+        
+
+//         &:hover {
+//             background-color: $cyan-text-color;
+//             color: $white-text-color;
+//             transition: all .2s ease;
+//         }
+//     }
+   
+// }
+
+// @mixin links {
+//     a {
+//         color: $dark-cyan-text-color;
+        
+//         &:hover {
+//             text-decoration: none;
+//             transition: all .2s ease;
+//         }
+//     }
+// }
+
+/*Tajam_master_verstkaPractic mixins*/
+
+
+
+
+// @mixin paragraphs {
+//     p {
+//         font-size: $paragraph-size;
+//         line-height: 20px;
+//         color: #000; 
+//         font-style: italic;
+
+//         @include link-style;
+
+//         span {
+//             font-weight: bold;
+//         }
+//     }   
+// }
+
+// @mixin link-style {
+//     a {
+//         text-decoration: none;
+//         display: inline-block;
+//         color: darkblue;
+//         border-bottom: 1px solid red;
+
+//         &:hover {
+//             border-color: transparent;
+//         }
+//     }
+// }

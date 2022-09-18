@@ -1,7 +1,42 @@
+@mixin button {
+    .btn {
+        background: $white-color;
+        border-radius: 6px;
+        border: 1px solid transparent;
+        line-height: 3.125rem;
+        padding: 0 26px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $pink-color;
+
+        &:hover {
+            background: transparent;
+            border: 1px solid $white-color;
+            color: $white-color;
+            transition: all .2s ease;
+        }
+    }
+}
+
+@mixin wrap {
+    .wrap {
+        max-width: 1110px;
+        min-width: 320px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
+
+@mixin flex {
+    .flex-sb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
 
 
-
-/*Tajam_master_verstkaPractic mixins*/
+//Tajam_master_verstkaPractic mixins//
 
 // @mixin button {
 //     .link-button{
@@ -35,7 +70,7 @@
 //     }
 // }
 
-/*Tajam_master_verstkaPractic mixins*/
+//Tajam_master_verstkaPractic mixins//
 
 
 
